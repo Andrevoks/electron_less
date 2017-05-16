@@ -1,0 +1,25 @@
+{
+  "name": "electron_less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "publishName": "less_test",
+  "electronVersion": "1.6.7",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . myApp --platform=win32 --arch=ia32 --version=1.6.7 --app-version=0.1.0 --out=dist --ignore=dist --prune"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.5.0",
+    "del": "^2.2.2",
+    "electron-ipc": "^0.3.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-electron": "^0.1.3"
+  }
+}
